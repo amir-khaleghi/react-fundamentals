@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* style.css */
+p {
+  @apply text-sm font-medium text-slate-500;
+}
+
+h1 {
+  @apply text-xl font-bold font-serif;
+}
+
+h2 {
+  @apply text-lg font-semibold;
+}
+
+#numbers {
+  @apply text-lg bg-orange-600 p-1 rounded-br-lg absolute top-0 left-0 text-white;
+}
+
+#title {
+  @apply text-4xl items-center flex justify-center pt-10;
+}
